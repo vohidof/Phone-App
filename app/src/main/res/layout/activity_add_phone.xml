@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".AddPhoneActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/white" />
+
+    <EditText
+        android:id="@+id/edtPhoneName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/backround"
+        android:gravity="start"
+        android:hint="@string/enter_phone_name"
+        android:padding="20dp"
+        android:textAlignment="textStart"
+        android:textColorHint="#474747"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtInformation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:layout_weight="2"
+        android:background="@drawable/backround"
+        android:gravity="start"
+        android:hint="@string/enter_phone_s_information"
+        android:padding="20dp"
+        android:textAlignment="textStart"
+        android:textColorHint="#474747"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_marginStart="265dp"
+        android:layout_marginLeft="265dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#37A77B"
+        android:text="@string/save"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="21sp" />
+
+</LinearLayout>
